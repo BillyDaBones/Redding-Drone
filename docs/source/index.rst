@@ -1,5 +1,5 @@
-Welcome to the Redding Drone Project Documentation
-==================================================
+Welcome to the Redding Drone's Light Show Documentation
+=======================================================
 
 This documentation is designed to guide you through the full process of assembling and operating drones for drone shows, intended for internal use at Redding Drone.
 
