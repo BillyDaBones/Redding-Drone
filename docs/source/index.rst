@@ -14,7 +14,6 @@ This documentation is designed to guide you through the full process of assembli
    :maxdepth: 2
    :caption: Contents:
 
-   index
    assembly_guide
 
 
