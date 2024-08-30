@@ -4,10 +4,10 @@ Assembly Guide for Redding Drone Show Drones
 This section provides detailed steps for assembling the drone show drones for internal use at Redding Drone.
 
 .. toctree::
-   :maxdepth: 1
-   :hidden:
+    :maxdepth: 1
+    :hidden:
 
-   index
+    index
 
 Parts List
 ----------
