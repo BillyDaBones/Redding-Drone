@@ -12,13 +12,11 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:
 
-   introduction
    assembly_guide
-   software_setup
-   flight_operations
-   troubleshooting
-   faq
+
+
 
 Introduction
 ------------
