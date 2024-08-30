@@ -1,71 +1,137 @@
 Assembly Guide for Redding Drone Show Drones
 ============================================
 
-This section provides detailed steps for assembling the drone show drones for internal use at Redding Drone.
+This guide provides detailed instructions for assembling drones for internal use at Redding Drone.
 
 Parts List
 ----------
 
-- **F9P RTK**
-- **Pixhawk 6C Mini**
-- **5000mAh 4C Lipo Battery**
-- **3DR Wifi**
-- **TGY-IA6B Radio**
+**Core Components:**
+
+- **F9P RTK Module**: High-precision GPS for positioning.
+- **Pixhawk 6C Mini Flight Controller**: Main control system for the drone.
+- **5000mAh 4C LiPo Battery**: Powers the entire drone.
+- **3DR WiFi Module**: Provides wireless communication for drone control.
+- **TGY-IA6B Radio Receiver**: Receives control inputs from the remote.
 - **S500 Drone Frame / Motor Kit**
+
+**Additional Hardware:**
+
+- **M3*8 Screws (Black)**: Used for securing landing gear to the frame.
+- **M2.5*6 Screws**: Used for attaching drone arms to the frame.
+- **M3*7 Screws (Silver)**: Used for securing motors to the arms.
+- **Zip Ties**: Used for securing wires to the frame and arms.
 
 Wiring Configuration
 --------------------
 
-- **F9P RTK** to GPS 1
-- **PM02** to POWER
-- **WIFI** to TELEM 1
-- **TGY-IA6B Radio** to PPM/SBUS RC
-- ESC’s to I/O PWM OUT (not shown in this guide)
+- **F9P RTK Module** → **GPS 1** on Pixhawk
+- **PM02 Power Module** → **POWER** on Pixhawk
+- **3DR WiFi Module** → **TELEM 1** on Pixhawk
+- **TGY-IA6B Radio Receiver** → **PPM/SBUS RC** on Pixhawk
+  - **Yellow wire**: Signal (top pin)
+  - **Black wire**: Ground (bottom pin)
+- **ESCs** → **I/O PWM OUT** (Note: ESC wiring not shown in this guide)
 
 Assembly Steps
 --------------
 
-**Landing Gear Installation**
-  Needed: Metric Hex Bit (2.5mm), x2 Landing Gear, x2 Vertical Pole
-  Steps:
-    - Unscrew clamp on Landing Gear.
-    - Push in Vertical Pole.
-    - Align flat, so base of Vertical Pole is symmetrical with Landing Gear.
-    - Screw clamp on Landing Gear.
+**1. Landing Gear Installation**
 
-**Landing Gear to Frame PDB**
-  Needed: M3*8 - 8 PCS (Black Screws), Metric Hex Bit (2.5mm)
-  Steps:
-    - Screw M3 screws through PDB board into landing gear plate attachments.
+*Tools & Materials:*
 
-**Attach Arms**
-  Needed: M2.5*6 - 8 PCS, Metric Hex Bit(M2), PDB Board with Landing Gear
-  Steps:
-    - Place drone arms so that the threads are facing up.
-    - Align and screw M2 screws through the PDB board into the bottom threads on Arms.
+- Metric Hex Bit (2.5mm)
+- 2x Landing Gear
+- 2x Vertical Pole
 
-**Mount Motors to Arms**
-  Needed: M3*7 - 16 PCS (Silver Screws), Metric Hex Bit (M2.5), 4 Zip Ties
-  Steps:
-    - Face drone away from you.
-    - Mount the motors according to the layout and screw in securely.
-    - Route wires through frame, matching the ESCs.
+*Steps:*
 
-**Mount RTK Module**
-  Needed: RTK Module, Metric Hex Bit(M2), Pliers
-  Steps:
-    - Attach circular plate to RTK module.
-    - Push Carbon fiber tube into the circular plate hole clamp.
-    - Place the plus sign mount on the drone’s PDB Board and secure with screws.
+1. Unscrew the clamp on the Landing Gear.
+2. Insert the Vertical Pole into the Landing Gear.
+3. Align the flat base so that the Vertical Pole is symmetrical with the Landing Gear.
+4. Tighten the clamp on the Landing Gear.
 
-**Mount WIFI and RC Receiver**
-  Needed: 3DR WIFI, RC Receiver, Double sided tape
-  Steps:
-    - Attach RC receiver using double sided tape to the drone PDB.
+**2. Attaching Landing Gear to Frame PDB**
 
-.. note:: Images will be added to each step to provide visual guidance.
+*Tools & Materials:*
 
-Conclusion
-----------
+- M3*8 Screws (8x Black)
+- Metric Hex Bit (2.5mm)
+- 2x Assembled Landing Gear
 
-Following these steps will help ensure a successful assembly of your drone show drones. Please refer to the specific section images for detailed visual guidance on each assembly step.
+*Steps:*
+
+1. Place the landing gear on the frame's PDB (Power Distribution Board).
+2. Secure the gear using M3 screws, threading them through the PDB into the gear’s attachment points.
+   - **Tip**: Cross-thread the screws slightly for balance and to reduce the chance of stripping.
+
+**3. Attaching the Arms to the Frame**
+
+*Tools & Materials:*
+
+- M2.5*6 Screws (8x)
+- Metric Hex Bit (M2)
+- PDB Board with Landing Gear attached
+- 4x Drone Arms
+
+*Steps:*
+
+1. Place each arm on the frame, aligning the screw holes.
+2. Secure each arm with 2 M2 screws through the PDB into the arm’s threads.
+3. Route the ESC wires through the center of the arm to the board.
+
+**4. Mounting the Motors to the Arms**
+
+*Tools & Materials:*
+
+- M3*7 Screws (16x Silver)
+- Metric Hex Bit (M2.5)
+- 4x Motors
+- 4x Zip Ties
+
+*Steps:*
+
+1. Identify motor placement (e.g., black motors on the back arms, white on the front).
+2. Secure each motor to the corresponding arm using 4 M3 screws.
+3. Route the motor wires through the frame holes, connecting them to the ESCs:
+   - **RED**: Left
+   - **BLUE**: Middle
+   - **BLACK**: Right
+4. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
+
+**5. Mounting the RTK Module**
+
+*Tools & Materials:*
+
+- RTK Module with mounting hardware
+- Metric Hex Bit (M2)
+- Pliers
+
+*Steps:*
+
+1. Attach the circular plate to the RTK module using the included screws.
+2. Insert the carbon fiber tube into the circular plate clamp.
+3. Secure the tube with an M2 screw.
+4. Mount the RTK assembly to the frame’s front top rails, securing with screws.
+
+**6. Mounting the WiFi Module and RC Receiver**
+
+*Tools & Materials:*
+
+- 3DR WiFi Module
+- RC Receiver (TGY-IA6B)
+- Double-sided tape
+- Scissors (optional)
+
+*Steps:*
+
+1. Cut a small strip of double-sided tape.
+2. Attach the tape to the RC receiver and mount it over the plus/minus connections at the back of the PDB.
+3. Secure the WiFi module similarly using double-sided tape.
+
+.. note::
+
+    Images will be added to each step to provide visual guidance.
+
+MORE TO BE ADDED
+----------------
