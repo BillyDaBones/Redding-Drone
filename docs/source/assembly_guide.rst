@@ -15,16 +15,13 @@ Parts List
 - **TGY-IA6B Radio Receiver**: Receives control inputs from the remote.
 - **S500 Drone Frame / Motor Kit**
 
-.. image:: docs/source/assets/WIFI.png
+.. image:: docs/source/assets/ReceiverWiring.png
   :width: 400
   :alt: Basic Hardware Overview
 
 **Additional Hardware:**
 
-- **M3*8 Screws (Black)**: Used for securing landing gear to the frame.
-- **M2.5*6 Screws**: Used for attaching drone arms to the frame.
-- **M3*7 Screws (Silver)**: Used for securing motors to the arms.
-- **Zip Ties**: Used for securing wires to the frame and arms.
+- **Metric Screwdriver: M2.5, M2.
 
 Wiring Configuration
 --------------------
@@ -35,7 +32,11 @@ Wiring Configuration
 - **TGY-IA6B Radio Receiver** → **PPM/SBUS RC** on Pixhawk
   - **Yellow wire**: Signal (top pin)
   - **Black wire**: Ground (bottom pin)
-- **ESCs** → **I/O PWM OUT** (Note: ESC wiring not shown in this guide)
+- **ESCs** → **I/O PWM OUT**
+
+.. image:: docs/source/assets/WIFI.png
+  :width: 400
+  :alt: Receiver Wiring Example
 
 Assembly Steps
 --------------
