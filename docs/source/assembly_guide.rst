@@ -15,7 +15,7 @@ Parts List
 - **TGY-IA6B Radio Receiver**: Receives control inputs from the remote.
 - **S500 Drone Frame / Motor Kit**
 
-.. image:: /assets/WIFI.png
+.. image:: docs/source/assets/WIFI.png
   :width: 400
   :alt: Basic Hardware Overview
 
