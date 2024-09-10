@@ -65,8 +65,8 @@ Assembly Steps
   :width: 250
   :alt: S500 assembled landing gear
 
-**1.5. Solder Battery Adapter to Frame PDB **
----------------------------------------------
+**1.5. Solder Battery Adapter to Frame PDB**
+--------------------------------------------
 
 *Tools & Materials:*
 
@@ -78,19 +78,19 @@ Assembly Steps
 
 *Steps:*
 
-- Start by cutting the male end (as close to the connector to not waste wire)
+1. Start by cutting the male end (as close to the connector to not waste wire)
 .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/cutPower.png
   :width: 250
   :alt: Cut diagram for PM02D
     *make sure battery is disconnected*
-- Seperate the two connections, striping off ~1.5cm of shielding on each
-- Pre-tin the tips of both ends
-- Pre-solder a generous amount on each pad (+ & -)
-- Solder connections appropriately (Red to + | Black to -)
+2. Seperate the two connections, striping off ~1.5cm of shielding on each
+3. Pre-tin the tips of both ends
+4. Pre-solder a generous amount on each pad (+ & -)
+5. Solder connections appropriately (Red to + | Black to -)
 .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/SolderPoints.jpg
   :width: 250
   :alt: Already Soldered Ends on PDB
-- *End Results*
+*End Results*
 
 **2. Attaching Landing Gear to Frame PDB**
 ------------------------------------------
@@ -141,11 +141,15 @@ Assembly Steps
 
 1. Identify motor placement (e.g., black motors on the back arms, white on the front).
 2. Secure each motor to the corresponding arm using 4 M3 screws.
-3. Route the motor wires through the frame holes, connecting them to the ESCs:
+3. Route the motor wires through the frame holes, wiring only the black motors as following:
+   - **RED**: Left
+   - **BLACK**: Middle
+   - **BLUE**: Right
+4. Next wiring the white motors as following:
    - **RED**: Left
    - **BLUE**: Middle
    - **BLACK**: Right
-4. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
+5. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
 **5. Mounting the RTK Module**
 ------------------------------
