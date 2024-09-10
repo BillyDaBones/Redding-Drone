@@ -145,11 +145,17 @@ Assembly Steps
    - **RED**: Left
    - **BLACK**: Middle
    - **BLUE**: Right
-4. Next wiring the white motors as following:
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack_BG.png
+     :width: 250
+     :alt: Black Motor Wiring
+1. Next wiring the white motors as following:
    - **RED**: Left
    - **BLUE**: Middle
    - **BLACK**: Right
-5. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite_BG.png
+     :width: 250
+     :alt: White Motor Wiring
+2. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
 **5. Mounting the RTK Module**
 ------------------------------
