@@ -15,7 +15,7 @@ Parts List
 - **TGY-IA6B Radio Receiver**: Receives control inputs from the remote.
 - **S500 Drone Frame / Motor Kit**
 
-.. image:: /docs/source/assets/ReceiverWiring.png
+.. image:: /docs/source/assets/WIFI.png
   :width: 400
   :alt: Basic Hardware Overview
 
@@ -34,7 +34,7 @@ Wiring Configuration
   - **Black wire**: Ground (bottom pin)
 - **ESCs** → **I/O PWM OUT**
 
-.. image:: /docs/source/assets/WIFI.png
+.. image:: /docs/source/assets/ReceiverWiring.png
   :width: 400
   :alt: Receiver Wiring Example
 
