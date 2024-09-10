@@ -20,7 +20,7 @@ Parts List
   :alt: Basic Hardware Overview
 
 **Additional Hardware:**
-
+  
 - **Metric Screwdriver: M2.5, M2.**
 
 Wiring Configuration
@@ -64,7 +64,37 @@ Assembly Steps
   :width: 250
   :alt: S500 assembled landing gear
 
+**1.5. Solder Battery Adapter to Frame PDB 
+
+*Tools & Materials:*
+
+- Pliers/scissors (to cut wires)
+- Wire Strippers
+- Soldering Station
+- Solder
+- PM02 V3 Power Module
+
+*Steps:*
+
+- Start by cutting the male end (as close to the connector to not waste wire)
+.. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/cutPower.png
+  :width: 250
+  :alt: Cut diagram for PM02D
+    *make sure battery is disconnected*
+- Seperate the two connections, striping off ~1.5cm of shielding on each
+- Pre-tin the tips of both ends
+- Pre-solder a generouis amount on each pad (+ & -)
+- Solder connections appropriatley (Red to + | Black to -)
+.. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/SolderPoints.jpg
+  :width: 250
+  :alt: Already Soldered Ends on PDB
+- *End Results*
+
 **2. Attaching Landing Gear to Frame PDB**
+
+.. image:: https://docs.px4.io/main/assets/s500_fig3.5YUW7iL9.jpg
+  :width: 250
+  :alt: S500 landing gear attached to frame
 
 *Tools & Materials:*
 
@@ -76,7 +106,7 @@ Assembly Steps
 
 1. Place the landing gear on the frame's PDB (Power Distribution Board).
 2. Secure the gear using M3 screws, threading them through the PDB into the gear’s attachment points.
-   - **Tip**: Cross-thread the screws slightly for balance and to reduce the chance of stripping.
+   - **Tip**: cross tighten the screws one by one, to reduce the chance of stripping, and even tolerance.
 
 **3. Attaching the Arms to the Frame**
 
