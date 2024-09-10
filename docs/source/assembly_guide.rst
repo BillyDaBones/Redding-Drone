@@ -42,6 +42,7 @@ Assembly Steps
 --------------
 
 **1. Landing Gear Installation**
+--------------------------------
 
 .. image:: https://docs.px4.io/main/assets/s500_fig1.NawTu5yB.jpg
   :width: 250
@@ -64,7 +65,8 @@ Assembly Steps
   :width: 250
   :alt: S500 assembled landing gear
 
-**1.5. Solder Battery Adapter to Frame PDB 
+**1.5. Solder Battery Adapter to Frame PDB **
+---------------------------------------------
 
 *Tools & Materials:*
 
@@ -83,14 +85,15 @@ Assembly Steps
     *make sure battery is disconnected*
 - Seperate the two connections, striping off ~1.5cm of shielding on each
 - Pre-tin the tips of both ends
-- Pre-solder a generouis amount on each pad (+ & -)
-- Solder connections appropriatley (Red to + | Black to -)
+- Pre-solder a generous amount on each pad (+ & -)
+- Solder connections appropriately (Red to + | Black to -)
 .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/SolderPoints.jpg
   :width: 250
   :alt: Already Soldered Ends on PDB
 - *End Results*
 
 **2. Attaching Landing Gear to Frame PDB**
+------------------------------------------
 
 .. image:: https://docs.px4.io/main/assets/s500_fig3.5YUW7iL9.jpg
   :width: 250
@@ -109,6 +112,7 @@ Assembly Steps
    - **Tip**: cross tighten the screws one by one, to reduce the chance of stripping, and even tolerance.
 
 **3. Attaching the Arms to the Frame**
+--------------------------------------
 
 *Tools & Materials:*
 
@@ -124,6 +128,7 @@ Assembly Steps
 3. Route the ESC wires through the center of the arm to the board.
 
 **4. Mounting the Motors to the Arms**
+--------------------------------------
 
 *Tools & Materials:*
 
@@ -143,6 +148,7 @@ Assembly Steps
 4. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
 **5. Mounting the RTK Module**
+------------------------------
 
 *Tools & Materials:*
 
@@ -158,6 +164,7 @@ Assembly Steps
 4. Mount the RTK assembly to the frame’s front top rails, securing with screws.
 
 **6. Mounting the WiFi Module and RC Receiver**
+-----------------------------------------------
 
 *Tools & Materials:*
 
