@@ -43,6 +43,10 @@ Assembly Steps
 
 **1. Landing Gear Installation**
 
+.. image:: https://docs.px4.io/main/assets/s500_fig1.NawTu5yB.jpg
+  :width: 250
+  :alt: S500 Landing Gear
+
 *Tools & Materials:*
 
 - Metric Hex Bit (2.5mm)
@@ -55,6 +59,10 @@ Assembly Steps
 2. Insert the Vertical Pole into the Landing Gear.
 3. Align the flat base so that the Vertical Pole is symmetrical with the Landing Gear.
 4. Tighten the clamp on the Landing Gear.
+
+.. image:: https://docs.px4.io/main/assets/s500_fig2.DUocALWg.jpg
+  :width: 250
+  :alt: S500 assembled landing gear
 
 **2. Attaching Landing Gear to Frame PDB**
 
