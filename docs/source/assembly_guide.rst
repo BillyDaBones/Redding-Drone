@@ -82,7 +82,7 @@ Assembly Steps
 .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/cutPower.png
   :width: 250
   :alt: Cut diagram for PM02D
-    *make sure battery is disconnected*
+*make sure battery is disconnected*
 2. Seperate the two connections, striping off ~1.5cm of shielding on each
 3. Pre-tin the tips of both ends
 4. Pre-solder a generous amount on each pad (+ & -)
@@ -145,16 +145,16 @@ Assembly Steps
    - **RED**: Left
    - **BLACK**: Middle
    - **BLUE**: Right
-   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack_BG.png
-     :width: 250
-     :alt: Black Motor Wiring
+.. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack Bg.png
+  :width: 250
+  :alt: Black Motor Wiring
 1. Next wiring the white motors as following:
    - **RED**: Left
    - **BLUE**: Middle
    - **BLACK**: Right
-   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite_BG.png
-     :width: 250
-     :alt: White Motor Wiring
+.. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite Bg.png
+  :width: 250
+  :alt: White Motor Wiring
 .. note::
   Wiring configuration is *VITAL* to be done correctly. Take care to ensure correct order of wires.
 1. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
