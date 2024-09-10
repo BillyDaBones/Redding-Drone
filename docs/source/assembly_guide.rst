@@ -155,7 +155,9 @@ Assembly Steps
    .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite_BG.png
      :width: 250
      :alt: White Motor Wiring
-2. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
+.. note::
+  Wiring configuration is *VITAL* to be done correctly. Take care to ensure correct order of wires.
+1. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
 **5. Mounting the RTK Module**
 ------------------------------
