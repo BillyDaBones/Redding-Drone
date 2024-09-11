@@ -3,6 +3,10 @@ Assembly Guide for Redding Drone Show Drones
 
 This guide provides detailed instructions for assembling drones for internal use at Redding Drone.
 
+.. note::
+  Most of this guide is following alongside with Px4's own guide on building the S500 frame.
+  In the advent of unclear instructions compare with their guide here: <https://docs.px4.io/main/en/frames_multicopter/holybro_s500_v2_pixhawk4.html>
+
 Parts List
 ----------
 
@@ -103,10 +107,6 @@ Assembly Steps
 **2. Attaching Landing Gear to Frame PDB**
 ------------------------------------------
 
-.. image:: https://docs.px4.io/main/assets/s500_fig3.5YUW7iL9.jpg
-  :width: 250
-  :alt: S500 landing gear attached to frame
-
 *Tools & Materials:*
 
 - M3*8 Screws (8x Black)
@@ -116,8 +116,18 @@ Assembly Steps
 *Steps:*
 
 1. Place the landing gear on the frame's PDB (Power Distribution Board).
-2. Secure the gear using M3 screws, threading them through the PDB into the gear’s attachment points.
-   - **Tip**: cross tighten the screws one by one, to reduce the chance of stripping, and even tolerance.
+   
+   .. image:: https://docs.px4.io/main/assets/s500_fig3.5YUW7iL9.jpg
+     :width: 250
+     :alt: S500 landing gear placement and screw holes
+
+2. Secure the gear using M3X8 screws, threading them through the PDB into the gear’s attachment points. Repeating this for all 8 screws (4 for each landing leg)
+   .. note::
+     cross tighten the screws one by one, to reduce the chance of stripping, and even tolerance.
+
+   .. image:: https://docs.px4.io/main/assets/s500_fig4.C5K72HQ9.jpg
+     :width: 250
+     :alt: S500 landing gear attached to frame 
 
 **3. Attaching the Arms to the Frame**
 --------------------------------------
@@ -156,7 +166,7 @@ Assembly Steps
    - **BLACK**: Middle
    - **BLUE**: Right
 
-   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack_Bg.png
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack%20Bg.png
       :width: 250
       :alt: Black Motor Wiring
 
@@ -165,11 +175,11 @@ Assembly Steps
    - **BLUE**: Middle
    - **BLACK**: Right
 
-   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite_Bg.png
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite%20Bg.png
       :width: 250
       :alt: White Motor Wiring
 
-   .. note::
+   .. warning::
       Wiring configuration is *VITAL* to be done correctly. Take care to ensure correct order of wires.
 
 5. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
