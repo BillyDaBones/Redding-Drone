@@ -79,9 +79,11 @@ Assembly Steps
 *Steps:*
 
 1. Start by cutting the male end (as close to the connector to not waste wire)
+   
    .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/cutPower.png
       :width: 250
       :alt: Cut diagram for PM02D
+   
    *make sure battery is disconnected*
 
 2. Separate the two connections, stripping off ~1.5cm of shielding on each
@@ -91,10 +93,12 @@ Assembly Steps
 4. Pre-solder a generous amount on each pad (+ & -)
 
 5. Solder connections appropriately (Red to + | Black to -)
+   
    .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/SolderPoints.jpg
       :width: 250
       :alt: Already Soldered Ends on PDB
-   *End Results*
+
+*End Results*
 
 **2. Attaching Landing Gear to Frame PDB**
 ------------------------------------------
