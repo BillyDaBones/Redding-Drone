@@ -4,19 +4,16 @@ Welcome to the Redding Drone's Light Show Documentation
 This documentation is designed to guide you through the full process of assembling and operating drones for drone shows, intended for internal use at Redding Drone.
 
 .. note::
-
    This project is under active development.
 
-
----------
+Contents
+--------
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    assembly_guide
-
-
 
 Introduction
 ------------
@@ -26,28 +23,47 @@ Welcome to our comprehensive guide on building and managing drone shows at Reddi
 Assembly Guide
 --------------
 
-**TO BE ADDED**
+Our assembly guide provides detailed instructions for putting together the drones used in our light shows. It covers everything from attaching the landing gear to mounting the various electronic components.
+
+For the full assembly instructions, please refer to the :doc:`assembly_guide` section.
 
 Software Setup
 --------------
 
-**TO BE ADDED**
+.. note::
+   This section is currently under development and will be added soon.
 
+We will provide detailed information on configuring the necessary software for operating our drones, including:
+
+- Flight controller firmware setup
+- Ground control station configuration
+- Light show programming software
 
 Flight Operations
 -----------------
 
-**TO BE ADDED**
+.. note::
+   This section is currently under development and will be added soon.
 
+This section will cover:
+
+- Pre-flight checks
+- Launch procedures
+- In-flight operations
+- Landing and post-flight procedures
 
 Troubleshooting
 ---------------
 
-**TO BE ADDED**
+.. note::
+   This section is currently under development and will be added soon.
 
+We will provide a comprehensive troubleshooting guide to help you diagnose and resolve common issues that may arise during assembly, setup, or flight operations.
 
 FAQ
 ---
 
-**TO BE ADDED**
+.. note::
+   This section is currently under development and will be added soon.
 
+This section will address frequently asked questions about our drone show operations, providing quick answers to common queries.
