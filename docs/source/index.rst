@@ -1,6 +1,10 @@
 Welcome to the Redding Drone's Light Show Documentation
 =======================================================
 
+.. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/refs/heads/main/docs/source/assets/RD%20loop%20Gif.gif
+   :width: 500
+   :alt: RD logo loop
+
 This documentation is designed to guide you through the full process of assembling and operating drones for drone shows, intended for internal use at Redding Drone.
 
 .. note::
