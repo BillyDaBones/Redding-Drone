@@ -162,7 +162,7 @@ Assembly Steps
    - BLACK: Middle
    - BLUE: Right
 
-   .. image:: /docs/source/assets/DroneArmBlack%20Bg.png
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmBlack%20Bg.png
       :width: 250
       :alt: Black Motor Wiring
 
@@ -171,7 +171,7 @@ Assembly Steps
    - BLUE: Middle
    - BLACK: Right
 
-   .. image:: /docs/source/assets/DroneArmWhite%20Bg.png
+   .. image:: https://raw.githubusercontent.com/BillyDaBones/Redding-Drone/main/docs/source/assets/DroneArmWhite%20Bg.png
       :width: 250
       :alt: White Motor Wiring
 
