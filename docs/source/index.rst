@@ -6,8 +6,6 @@ This documentation is designed to guide you through the full process of assembli
 .. note::
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 2
