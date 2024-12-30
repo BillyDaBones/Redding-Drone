@@ -180,7 +180,66 @@ Assembly Steps
 
 5. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
-6. Mounting the RTK Module
+6. Battery Mount Installation
+-------------------------
+
+**Tools & Materials:**
+
+- Phillips Head Screwdriver
+- Hex M2 Bit
+- Battery Mount Components:
+  - 4x Rubber Couplings
+  - 4x Plastic Adapters
+  - 2x Carbon Adapters
+  - 1x Adapter Plate
+  - 4x Phillips Screws
+  - 2x Carbon Tubes
+  - 2x Mounting Attachments
+      .. image:: https://docs.px4.io/main/assets/s500_fig31.n6bm_ztm.jpg
+         :width: 250
+         :alt: required parts for assembly
+
+**Steps:**
+
+1. Prepare the Rubber Couplings:
+   - Insert one rubber coupling into each plastic adapter (4 total)
+   
+   .. note::
+      Ensure the rubber couplings are fully seated in the plastic adapters for proper grip.
+   .. image:: https://docs.px4.io/main/assets/s500_fig33.Dcf0oGtL.png
+      :width: 250
+      :alt: arranged parts for assembly
+
+2. Assemble the Main Plate:
+   - Place the carbon adapters on either side of the adapter plate
+   - Insert Phillips screws through the adapter plate
+   - Secure the screws into the carbon adapters
+   - Ensure connections are tight but not over-tightened
+      .. image:: https://docs.px4.io/main/assets/s500_fig35.CwQe4_cB.jpg
+         :width: 250
+         :alt: Plate attachment for carbon rod adapters 
+
+1. Prepare the Carbon Tubes:
+   - Take the rubber/plastic adapter assemblies from step 1
+   - Place two adapters onto each carbon tube
+   - Space them evenly for balanced support
+   
+2. Final Assembly:
+   - Mount the completed assembly to the bottom PDB Board
+   - Use the two outer attachment points for securing
+   - Verify the mount is level and secure
+      .. image:: https://docs.px4.io/main/assets/s500_fig34.DgCxhyz9.jpg
+         :width: 250
+         :alt: fully assembled batttery mount
+   
+   .. note::
+      The battery mount clips should be utilizing the outer row of holes on the PDB
+
+.. image:: https://docs.px4.io/main/assets/s500_fig36.C6Fs6qVj.jpg
+   :width: 250
+   :alt: Battery Mount Assembly
+
+7. Mounting the RTK Module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Tools & Materials:**
@@ -196,7 +255,7 @@ Assembly Steps
 3. Secure the tube with an M2 screw.
 4. Mount the RTK assembly to the frame's front top rails, securing with screws.
 
-7. Mounting the WiFi Module and RC Receiver
+8. Mounting the WiFi Module and RC Receiver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Tools & Materials:**
