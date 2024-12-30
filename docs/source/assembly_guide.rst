@@ -181,7 +181,7 @@ Assembly Steps
 5. Secure the wires to the arm using zip ties, ensuring no wires are damaged.
 
 6. Battery Mount Installation
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Tools & Materials:**
 
@@ -219,12 +219,12 @@ Assembly Steps
          :width: 250
          :alt: Plate attachment for carbon rod adapters 
 
-1. Prepare the Carbon Tubes:
+3. Prepare the Carbon Tubes:
    - Take the rubber/plastic adapter assemblies from step 1
    - Place two adapters onto each carbon tube
    - Space them evenly for balanced support
    
-2. Final Assembly:
+4. Final Assembly:
    - Mount the completed assembly to the bottom PDB Board
    - Use the two outer attachment points for securing
    - Verify the mount is level and secure
